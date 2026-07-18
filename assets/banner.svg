@@ -1,0 +1,56 @@
+<svg viewBox="0 0 880 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="global-workspace-in-llms: a row of layers, sensory then workspace then motor, with concepts lighting up only in the middle band">
+  <defs>
+    <linearGradient id="ramp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#9b8cf7"/>
+      <stop offset="100%" stop-color="#ef6fd0"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="55%" stop-color="#9b8cf7"/>
+      <stop offset="100%" stop-color="#ef6fd0"/>
+    </linearGradient>
+  </defs>
+
+  <text x="440" y="50" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="32" font-weight="700" fill="url(#ramp)">global-workspace-in-llms</text>
+  <text x="440" y="82" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12.5" fill="#8b949e">the unspoken words &#183; read, swapped, and audited at layers 38&#8211;92</text>
+
+  <!-- layer strip: sensory (dim) / workspace (lit) / motor (dim) -->
+  <g stroke="#8b949e" stroke-opacity="0.45" fill="#8b949e" fill-opacity="0.06">
+    <rect x="80" y="120" width="220" height="56" rx="8"/>
+    <rect x="580" y="120" width="220" height="56" rx="8"/>
+  </g>
+  <rect x="310" y="112" width="260" height="72" rx="10" fill="url(#band)" fill-opacity="0.14" stroke="url(#band)" stroke-opacity="0.9"/>
+
+  <!-- dim ticks in sensory and motor bands -->
+  <g stroke="#8b949e" stroke-opacity="0.35">
+    <line x1="110" y1="132" x2="110" y2="164"/><line x1="150" y1="132" x2="150" y2="164"/>
+    <line x1="190" y1="132" x2="190" y2="164"/><line x1="230" y1="132" x2="230" y2="164"/>
+    <line x1="270" y1="132" x2="270" y2="164"/>
+    <line x1="610" y1="132" x2="610" y2="164"/><line x1="650" y1="132" x2="650" y2="164"/>
+    <line x1="690" y1="132" x2="690" y2="164"/><line x1="730" y1="132" x2="730" y2="164"/>
+    <line x1="770" y1="132" x2="770" y2="164"/>
+  </g>
+
+  <!-- concepts igniting in the workspace band -->
+  <g fill="#58a6ff">
+    <circle cx="335" cy="136" r="4"><animate attributeName="opacity" values="0;1;1" keyTimes="0;0.3;1" dur="1.2s" fill="freeze"/></circle>
+    <circle cx="362" cy="160" r="4"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.35;1" dur="1.5s" fill="freeze"/></circle>
+  </g>
+  <g fill="#9b8cf7">
+    <circle cx="398" cy="142" r="4"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.45;1" dur="1.8s" fill="freeze"/></circle>
+    <circle cx="430" cy="164" r="4"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" dur="2.0s" fill="freeze"/></circle>
+    <circle cx="452" cy="132" r="4"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.55;1" dur="2.2s" fill="freeze"/></circle>
+  </g>
+  <g fill="#ef6fd0">
+    <circle cx="488" cy="152" r="4"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.6;1" dur="2.4s" fill="freeze"/></circle>
+    <circle cx="516" cy="138" r="4"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.65;1" dur="2.6s" fill="freeze"/></circle>
+    <circle cx="544" cy="162" r="4"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.7;1" dur="2.8s" fill="freeze"/></circle>
+  </g>
+
+  <g font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#8b949e">
+    <text x="190" y="212" text-anchor="middle">sensory</text>
+    <text x="440" y="212" text-anchor="middle">workspace &#183; the J-space</text>
+    <text x="690" y="212" text-anchor="middle">motor</text>
+  </g>
+</svg>

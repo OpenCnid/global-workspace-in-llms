@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "updated": "2026-07-18",
+  "repo": "https://github.com/OpenCnid/global-workspace-in-llms",
+  "notes": [
+    {
+      "id": "2026-global-workspace-in-llms",
+      "path": "density-chain.md",
+      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+      "authors": [
+        "Wes Gurnee",
+        "Nicholas Sofroniew",
+        "Adam Pearce",
+        "Mateusz Piotrowski",
+        "Isaac Kauvar",
+        "Runjin Chen",
+        "Anna Soligo",
+        "Paul Bogdan",
+        "Euan Ong",
+        "Rowan Wang",
+        "T. Ben Thompson",
+        "David Abrahams",
+        "Subhash Kantamneni",
+        "Emmanuel Ameisen",
+        "Joshua Batson",
+        "Jack Lindsey"
+      ],
+      "lab": "anthropic",
+      "year": 2026,
+      "venue": "Transformer Circuits Thread, 2026",
+      "canonical": "https://transformer-circuits.pub/2026/workspace/index.html",
+      "pinned_version": "web publication (no version number); pin = publication date + URL",
+      "pinned_date": "2026-07-06",
+      "source_license": "none stated on page",
+      "date_summarized": "2026-07-18",
+      "verified_against_source": "2026-07-18",
+      "tier_budget_words": 150,
+      "tags": [
+        "interpretability",
+        "global-workspace",
+        "jacobian-lens",
+        "alignment-auditing",
+        "consciousness",
+        "anthropic"
+      ]
+    }
+  ]
+}

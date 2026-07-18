@@ -30,11 +30,9 @@ copied.
   paths. Parse it; don't scrape the markdown.
 - **Cite the humans, not this repo.** The paper's own BibTeX is in
   [CITATION.md](CITATION.md).
-- A companion signpost repo,
-  [verbalizable-global-workspace](https://github.com/OpenCnid/verbalizable-global-workspace),
-  redirects here; it hosts no PDF (a historical snapshot lives in its git
-  history only). The canonical rendering — and the one this note's locators
-  follow — is the live Transformer Circuits page.
+- The canonical rendering — and the one this note's locators follow — is the
+  live Transformer Circuits page; it serves its own copy, and no snapshot is
+  maintained anywhere in the collection.
 
 ## Working on this repo
 

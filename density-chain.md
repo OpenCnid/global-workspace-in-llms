@@ -5,7 +5,7 @@ venue: "Transformer Circuits Thread, 2026"
 source: "https://transformer-circuits.pub/2026/workspace/index.html (pinned: publication date 2026-07-06; articles carry no version number)"
 license: "none stated on the page (verified 2026-07-18)"
 date_summarized: 2026-07-18
-verified_against_source: 2026-07-18
+verified_against_source: 2026-07-20
 tier_budget_words: 150
 tags: [interpretability, global-workspace, jacobian-lens, alignment-auditing, consciousness, anthropic]
 entity_ledger:
@@ -172,9 +172,14 @@ admiration is real, the receipts are pending.
   (Transformer Circuits Thread)
 - Version studied: web publication dated July 6, 2026 — lab articles carry no
   version number, so the pin is the publication date plus the URL
-- Verified against source: 2026-07-18, studied at the canonical page; locators
-  follow the section headings of the web rendering (the page has no page
-  numbers)
+- Verified against source: 2026-07-20 (re-verification pass; first verified
+  2026-07-18), studied at the canonical page; locators follow the section
+  headings of the web rendering (the page has no page numbers)
+- Re-verification 2026-07-20: re-fetched the pinned page (still "Published
+  July 6, 2026," no redirect, no revision/errata banner) and re-checked every
+  T1–T5 claim, every Key-results row, and every locator against it. No
+  discrepancies found — all values and section headings match the source;
+  verification date refreshed only
 - Code and demos: the authors provide an open-source J-lens implementation and
   an interactive readout on Neuronpedia [§Code and Replication Information]
 - License: none stated on the page at verification time

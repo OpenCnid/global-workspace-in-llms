@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-18",
+  "updated": "2026-07-20",
   "repo": "https://github.com/OpenCnid/global-workspace-in-llms",
   "notes": [
     {
@@ -33,7 +33,7 @@
       "pinned_date": "2026-07-06",
       "source_license": "none stated on page",
       "date_summarized": "2026-07-18",
-      "verified_against_source": "2026-07-18",
+      "verified_against_source": "2026-07-20",
       "tier_budget_words": 150,
       "tags": [
         "interpretability",
